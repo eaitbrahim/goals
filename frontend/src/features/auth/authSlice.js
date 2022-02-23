@@ -75,7 +75,7 @@ export const authSlice = createSlice({
       state.user = null;
     })
     .addCase(logout.fulfilled, (state) => {
-      state.use = null;
+      state.user = null;
     });
   }
 });

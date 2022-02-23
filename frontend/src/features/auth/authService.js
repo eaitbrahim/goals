@@ -29,7 +29,7 @@ const login = async (userData) => {
 const authService = {
   login,
   logout,
-  login
+  register
 }
 
 export default authService;
